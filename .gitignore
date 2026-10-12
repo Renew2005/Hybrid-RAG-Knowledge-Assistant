@@ -1,0 +1,34 @@
+# Secrets
+.env
+
+# Virtual environment
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Processed data (regenerable)
+data/processed/
+data/vectorstore/
+data/bm25_index.pkl
+
+# Raw documents (user-specific)
+data/raw/*
+!data/raw/.gitkeep
+
+# Evaluation results (regenerable)
+data/eval/*.csv
+
+# Scratch / dev files
+scratch/
+scratch_*.py
+
+# IDE
+.vscode/
+.idea/
+
+src/data/
+
+data/raw/*.pdf
